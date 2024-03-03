@@ -2,6 +2,7 @@
 const nextConfig = {
     output: 'export',
     distDir: 'out',
+    basePath: "/portfolio",
 };
 
 export default nextConfig;
