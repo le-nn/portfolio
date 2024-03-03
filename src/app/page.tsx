@@ -1,4 +1,5 @@
 import styles from "./page.module.css";
+import Image from "next/image";
 
 export default function Home() {
     return (
@@ -15,24 +16,26 @@ export default function Home() {
                         rel="noopener noreferrer"
                     >
                         By{" "}
-                        <img
-                            src="/vercel.svg"
+                        <Image
+                            src="./vercel.svg"
                             alt="Vercel Logo"
                             className={styles.vercelLogo}
                             width={100}
                             height={24}
+                            priority
                         />
                     </a>
                 </div>
             </div>
 
             <div className={styles.center}>
-                <img
+                <Image
                     className={styles.logo}
-                    src="/next.svg"
+                    src="/portfolio/next.svg"
                     alt="Next.js Logo"
                     width={180}
                     height={37}
+                    priority
                 />
             </div>
 
