@@ -16,26 +16,24 @@ export default function Home() {
                         rel="noopener noreferrer"
                     >
                         By{" "}
-                        <Image
+                        <img
                             src="/vercel.svg"
                             alt="Vercel Logo"
                             className={styles.vercelLogo}
                             width={100}
                             height={24}
-                            priority
                         />
                     </a>
                 </div>
             </div>
 
             <div className={styles.center}>
-                <Image
+                <img
                     className={styles.logo}
                     src="/next.svg"
                     alt="Next.js Logo"
                     width={180}
                     height={37}
-                    priority
                 />
             </div>
 
